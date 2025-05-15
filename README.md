@@ -18,11 +18,9 @@ We used [Kaggle Notebooks](https://www.kaggle.com/code) with NVIDIA T4 ×2 as th
 
 2. Click "Edit" -> "Notebook Settings".
 
-3. Under "Accelerator", select:
-   ```
-   GPU
-   NVIDIA T4 ×2
-   ```
+3. Under "settings", select:
+   
+   Accelerator -> GPU T4 ×2
 
 4. Upload the `.ipynb` files from the `gpu_codes/` folder.
 
@@ -34,7 +32,6 @@ We used [Kaggle Notebooks](https://www.kaggle.com/code) with NVIDIA T4 ×2 as th
 
 
 6. Run each notebook.
-
 
 
 ## Metrics Collected
