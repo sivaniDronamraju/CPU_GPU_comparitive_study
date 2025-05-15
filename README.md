@@ -1,6 +1,6 @@
 # Multicore vs GPU Acceleration in Machine Learning
 
-This repository contains the study of Multicore vs GPU Acceleration in Machine Learning, which benchmarks Convolutional Neural Network (CNN) and ResNet-18 model training on different hardware platforms. The goal is to analyze training time, throughput, resource utilization, and performance across scratch and PyTorch implementations on both CPU and GPU.
+This repository contains the study of Multicore vs GPU Acceleration in Machine Learning, which benchmarks Convolutional Neural Network (CNN) and ResNet-18 model training on different hardware platforms. The goal is to analyze training time, throughput, resource utilization, and performance across scratch and PyTorch implementations on both CPU and GPU. We used CIFAR 10 dataset for this study
 
 
 ## CPU Instructions
