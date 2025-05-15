@@ -5,7 +5,7 @@ This repository contains the study of Multicore vs GPU Acceleration in Machine L
 
 ## CPU Instructions
 ### Requirements
-- Python 3.x
+- Python 3.8 or above
 - NumPy
 - Numba
 - PyTorch (for CIFAR-10 dataset loading)
@@ -16,6 +16,25 @@ Install required packages with:
 ```python
    !pip install numpy numba torch torchvision psutil
 ```
+### Run the code
+* For CNN
+```
+jupyter notebook CNN.ipynb
+
+```
+* For ResNet-18
+```
+jupyter notebook Resnet18_final.ipynb
+
+```
+
+Each notebook contains code for:
+- Single-core Scratch
+- Multi-core Scratch
+- Single-core PyTorch
+- Multi-core PyTorch
+
+
 ## GPU Instructions
 
 ### How to Run GPU Notebooks on Kaggle
