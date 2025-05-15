@@ -4,8 +4,18 @@ This repository contains the study of Multicore vs GPU Acceleration in Machine L
 
 
 ## CPU Instructions
+### Requirements
+- Python 3.x
+- NumPy
+- Numba
+- PyTorch (for CIFAR-10 dataset loading)
+- torchvision
+- psutil
 
-
+Install required packages with:
+```python
+   !pip install numpy numba torch torchvision psutil
+```
 ## GPU Instructions
 
 ### How to Run GPU Notebooks on Kaggle
