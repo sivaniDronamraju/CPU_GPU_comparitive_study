@@ -14,7 +14,7 @@ This repository contains the study of Multicore vs GPU Acceleration in Machine L
 
 Install required packages with:
 ```python
-   !pip install numpy numba torch torchvision psutil
+!pip install numpy numba torch torchvision psutil
 ```
 ### Run the code
 * For CNN
