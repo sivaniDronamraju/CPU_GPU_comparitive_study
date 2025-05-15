@@ -1,0 +1,57 @@
+# Multicore vs GPU Acceleration in Machine Learning
+
+This repository contains the study of Multicore vs GPU Acceleration in Machine Learning, which benchmarks Convolutional Neural Network (CNN) and ResNet-18 model training on different hardware platforms. The goal is to analyze training time, throughput, resource utilization, and performance across scratch and PyTorch implementations on both CPU and GPU.
+
+
+## CPU Instructions
+
+
+## GPU Instructions
+
+### How to Run GPU Notebooks on Kaggle
+
+We used [Kaggle Notebooks](https://www.kaggle.com/code) with NVIDIA T4 ×2 as the accelerator for the GPU part of the comparision study.
+
+### Steps to Set Up Kaggle Environment:
+
+1. Go to: https://www.kaggle.com/code and create a new notebook.
+
+2. Click "Edit" -> "Notebook Settings".
+
+3. Under "Accelerator", select:
+   ```
+   GPU
+   NVIDIA T4 ×2
+   ```
+
+4. Upload the `.ipynb` files from the `gpu_codes/` folder.
+
+5. For scratch implementations, install CuPy before running:
+
+   ```python
+   !pip install cupy-cuda11x
+   ```
+
+
+6. Run each notebook.
+
+
+
+## Metrics Collected
+
+Each notebook logs the following metrics during training:
+
+- Training Time (Total time)
+- Throughput (images per second)
+- RAM Usage and GPU Memory Usage
+- CPU and GPU Utilization
+- Train and Test Accuracy (only for the PyTorch models)
+
+
+
+
+
+
+
+
+
