@@ -45,22 +45,22 @@ We used [Kaggle Notebooks](https://www.kaggle.com/code) with NVIDIA T4 ×2 as th
 
 1. Go to: https://www.kaggle.com/code and create a new notebook.
 
-2. Click "Edit" -> "Notebook Settings".
+2. Click on "File" then "import Notebook"
 
-3. Under "settings", select:
+3. Upload the `.ipynb` files from the `gpu_codes/` folder.
+
+4. Under "settings", select:
    
    Accelerator -> GPU T4 ×2
 
-4. Upload the `.ipynb` files from the `gpu_codes/` folder.
+5. Run each notebook.
 
-5. For scratch implementations, install CuPy before running:
+6. For scratch implementations, install CuPy before running:
 
    ```python
    !pip install cupy-cuda11x
    ```
 
-
-6. Run each notebook.
 
 
 ## Metrics Collected
