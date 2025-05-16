@@ -16,6 +16,7 @@ CPU_GPU_comparitive_study/
 │   ├── CNN.ipynb                    # CNN using PyTorch on CPU and from scratch
 │   ├── Resnet18_final.ipynb         # ResNet18 from scratch  and using PyTorch on CPU
 │
+├── Report
 ├── README.md                        
 ```
 ## CPU Instructions
