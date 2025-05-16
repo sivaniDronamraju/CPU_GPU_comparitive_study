@@ -2,6 +2,21 @@
 
 This repository contains the study of Multicore vs GPU Acceleration in Machine Learning, which benchmarks Convolutional Neural Network (CNN) and ResNet-18 model training on different hardware platforms. The goal is to analyze training time, throughput, resource utilization, and performance across scratch and PyTorch implementations on both CPU and GPU. We used CIFAR 10 dataset for this study
 
+## file structure
+
+CPU_GPU_comparitive_study/
+│
+├── gpu_codes/                       
+│   ├── pytorch-18-gpu.ipynb         # ResNet-18 using PyTorch on GPU
+│   ├── pytorch-cnn-gpu.ipynb        # CNN using PyTorch on GPU
+│   ├── scratch-18-gpu.ipynb         # ResNet-18 from scratch using CuPy
+│   ├── scratch-cnn-gpu.ipynb        # CNN from scratch using CuPy
+│
+├── cpu_codes/                      
+│   ├── CNN.ipynb                    # CNN using PyTorch on CPU and from scratch
+│   ├── Resnet18_final.ipynb         # ResNet18 from scratch  and using PyTorch on CPU
+│
+├── README.md                        
 
 ## CPU Instructions
 ### Requirements
