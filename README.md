@@ -7,14 +7,14 @@ This repository contains the study of Multicore vs GPU Acceleration in Machine L
 CPU_GPU_comparitive_study/
 │
 ├── gpu_codes/                       
-│   ├── pytorch-18-gpu.ipynb         # ResNet-18 using PyTorch on GPU
-│   ├── pytorch-cnn-gpu.ipynb        # CNN using PyTorch on GPU
-│   ├── scratch-18-gpu.ipynb         # ResNet-18 from scratch using CuPy
-│   ├── scratch-cnn-gpu.ipynb        # CNN from scratch using CuPy
+│   ├── pytorch-18-gpu.ipynb        
+│   ├── pytorch-cnn-gpu.ipynb        
+│   ├── scratch-18-gpu.ipynb         
+│   ├── scratch-cnn-gpu.ipynb        
 │
 ├── cpu_codes/                      
-│   ├── CNN.ipynb                    # CNN using PyTorch on CPU and from scratch
-│   ├── Resnet18_final.ipynb         # ResNet18 from scratch  and using PyTorch on CPU
+│   ├── CNN.ipynb                    
+│   ├── Resnet18_final.ipynb         
 │
 ├── Report
 ├── README.md                        
